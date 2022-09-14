@@ -15,6 +15,7 @@ class SWTestViewController: UIViewController {
         // Do any additional setup after loading the view.
         self.p_buildUI()
         self.p_layoutUI()
+        
     }
     
     /// 创建UI 交给子类重写 super自动调用该方法

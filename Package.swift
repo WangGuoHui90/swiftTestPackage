@@ -12,9 +12,9 @@ let package = Package(
            ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
-        .library(
-            name: "SwiftPackage",
-            targets: ["SwiftPackage"]),
+//        .library(
+//            name: "SwiftPackage",
+//            targets: ["SwiftPackage"]),
         .library(
             name: "SWTestViewController",
             targets: ["SwiftPackage"]),
