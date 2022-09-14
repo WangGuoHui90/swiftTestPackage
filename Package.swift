@@ -15,6 +15,9 @@ let package = Package(
         .library(
             name: "SwiftPackage",
             targets: ["SwiftPackage"]),
+        .library(
+            name: "SWTestViewController",
+            targets: ["SwiftPackage"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
